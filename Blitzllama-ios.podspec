@@ -13,11 +13,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/Blitzllama/ios-releases.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "BlitzLlamaSDK/**/*.{swift}"
-  # spec.exclude_files = "Classes/Exclude"
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-
   spec.frameworks = "UIKit", "SafariServices", "SwiftyJSON", "SDWebImage"
   spec.dependency "SwiftyJSON", "~> 4.0"
   spec.dependency "SDWebImage", "~> 5.0"
