@@ -6,15 +6,15 @@
 	<dict>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
 		<data>
-		5VCxYy/+PuD9cAd6xvDbA7HIAns=
+		dH46k0jcasWRgBJILTdGpVukHCY=
 		</data>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<data>
-		KT+EO/Q+it0ZWiXXOewxzucVvH4=
+		BEYmDEWLVl0bvpPWIrNkzUo1BsU=
 		</data>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tm89ajvAd6F8ziN6/S4pgodWEvQ=
+		BE9qaNR+oltgvi4uwOHKDOm58kQ=
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/Info.plist</key>
 		<data>
@@ -223,21 +223,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6DHc05CEH0cF+DS6/UfUlH5NbjWTiX0piBmQiyWtes=
+			KEmPrzzHFhgWl8Cx91NVsdDQJcQAGTanROgW2JJnd9w=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pj8gamEmnb2xDSXKlRfwRb8zyU/OcGDu/oiTqBBsjMI=
+			Ft8awh85dn8A7wqUQcBA5/pt/dGBJF99HPv0juYzk2M=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			trPHoYM/GZMwQDs78aDj0bDeTxIIkgcpMTel/5jBFzo=
+			PlCLBcaXwkv8YpLZb4+NIHB0Yjlah9N/ydYeOgX9X6U=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyJSON.framework/Info.plist</key>
