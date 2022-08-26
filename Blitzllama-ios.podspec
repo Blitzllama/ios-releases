@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Blitzllama-ios"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Blitzllama ios sdk for launching in-app surveys."
   spec.description  = "Blitzllama ios sdk for launching in-app micro surveys."
   spec.homepage     = "https://github.com/Blitzllama/ios-releases"
@@ -17,5 +17,6 @@ Pod::Spec.new do |spec|
   spec.dependency "SwiftyJSON", "~> 4.0"
   spec.dependency "SDWebImage", "~> 5.0"
   spec.swift_versions = "5.0"
+  spec.vendored_frameworks = "BlitzLlamaSDK.xcframework"
   
 end
