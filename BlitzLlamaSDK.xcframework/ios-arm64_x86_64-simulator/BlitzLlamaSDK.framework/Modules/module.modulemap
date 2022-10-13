@@ -1,0 +1,11 @@
+framework module BlitzLlamaSDK {
+  umbrella header "BlitzLlamaSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BlitzLlamaSDK.Swift {
+    header "BlitzLlamaSDK-Swift.h"
+    requires objc
+}
