@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		Un4O6L483tKrGvleyDDi8vpYe08=
+		</data>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
 		<data>
 		dH46k0jcasWRgBJILTdGpVukHCY=
@@ -39,6 +43,10 @@
 		<key>Info.plist</key>
 		<data>
 		+qda6MsOm2dqHi4EPlL0gjrCUCo=
+		</data>
+		<key>Modules/.DS_Store</key>
+		<data>
+		Qecyrr/n5HgMFzBEUooLqjSIWj4=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
