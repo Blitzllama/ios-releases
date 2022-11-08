@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Blitzllama-ios"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "Blitzllama ios sdk for launching in-app surveys."
   spec.description  = "Blitzllama ios sdk for launching in-app micro surveys."
   spec.homepage     = "https://github.com/Blitzllama/ios-releases"

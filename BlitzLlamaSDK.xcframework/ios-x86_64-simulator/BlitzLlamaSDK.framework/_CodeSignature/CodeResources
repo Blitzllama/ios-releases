@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8+o1AYUe9rby5l7UbZfZvOitbHE=
+		1qxv3VavZEhJfShEbFnxXqFsyY8=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zgONjDJlGIc3Lbd7SnyxZSxhkOg=
+		6hfwGxDUpIG5eUvKsUeKr/rQGww=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -263,7 +263,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LPIaXdUoBmr4MQ9dMmdfMFWyvfq1brLpeODXk/D5xA=
+			lbwmTpkzTG1Xq2ixMAsVnXMspMz0bAmiAeuAkhVWR04=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -284,7 +284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJDHTu+KHfzWaAOoKhALe1LutgZ4kZXmKXM6oVuo20Q=
+			NJxlwhLKaMbzymrezLYpGt2WRv69yMGPXhNxSzRQPpo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
