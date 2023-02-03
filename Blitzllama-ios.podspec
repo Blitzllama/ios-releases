@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "blitz_bently" => "tech@blitzllama.com" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "https://github.com/Blitzllama/ios-releases.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/Blitzllama/ios-releases.git", :tag => '1.2.2' }
 
   spec.frameworks = "UIKit", "SafariServices", "SwiftyJSON"
   spec.dependency "SwiftyJSON", "~> 5.0.1"
