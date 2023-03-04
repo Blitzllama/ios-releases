@@ -6,6 +6,7 @@
 import Foundation
 import SafariServices
 import Swift
+import SwiftUI
 import SwiftyJSON
 import UIKit
 import _Concurrency
@@ -23,6 +24,7 @@ extension BlitzLlamaSDK.BlitzLlamaSDKController {
   public func updateUserEmail(_ email: Swift.String)
   public func updateUserAttributes(attribute: Swift.String, attributeValue: Swift.String, dataType: Swift.String)
   public func fetchSurvey(viewController: UIKit.UIViewController, triggerName: Swift.String)
+  public func fetchSurvey(triggerName: Swift.String)
 }
 public struct AppNetworkingRequest {
 }

@@ -22,6 +22,13 @@
         "moduleName": "BlitzLlamaSDK"
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BlitzLlamaSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "BlitzLlamaSDKController",
         "printedName": "BlitzLlamaSDKController",
@@ -316,6 +323,33 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchSurvey",
+            "printedName": "fetchSurvey(triggerName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13BlitzLlamaSDK0aB13SDKControllerC11fetchSurvey11triggerNameySS_tF",
+            "mangledName": "$s13BlitzLlamaSDK0aB13SDKControllerC11fetchSurvey11triggerNameySS_tF",
+            "moduleName": "BlitzLlamaSDK",
+            "declAttributes": [
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -3809,7 +3843,7 @@
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 517,
+      "offset": 532,
       "length": 2,
       "value": "\"\""
     },
@@ -4175,14 +4209,14 @@
       "kind": "IntegerLiteral",
       "offset": 2058,
       "length": 3,
-      "value": "160"
+      "value": "180"
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC.swift",
       "kind": "IntegerLiteral",
       "offset": 2064,
       "length": 3,
-      "value": "210"
+      "value": "220"
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC.swift",
@@ -4241,9 +4275,16 @@
       "value": "0.0"
     },
     {
+      "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7497,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/InputFeedback\/InputFeedbackVC.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 824,
       "length": 2,
       "value": "\"\""
     },
@@ -4271,28 +4312,28 @@
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 676,
+      "offset": 723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "Array",
-      "offset": 724,
+      "offset": 771,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "Array",
-      "offset": 763,
+      "offset": 810,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 878,
+      "offset": 925,
       "length": 4,
       "value": "true"
     },
@@ -4313,7 +4354,7 @@
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/ScaleFeedback\/ScaleFeedbackVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1034,
+      "offset": 1081,
       "length": 4,
       "value": "true"
     },
@@ -4509,14 +4550,14 @@
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/IntroPrompt\/IntroPromptVC.swift",
       "kind": "StringLiteral",
-      "offset": 612,
+      "offset": 654,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/StarRating\/StarRatingVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 657,
+      "offset": 704,
       "length": 4,
       "value": "true"
     },
@@ -4537,588 +4578,602 @@
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 590,
       "length": 13,
       "value": "\"question_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 632,
       "length": 15,
       "value": "\"question_type\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 662,
+      "offset": 676,
       "length": 15,
       "value": "\"question_text\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 706,
+      "offset": 720,
       "length": 15,
       "value": "\"question_desc\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 765,
+      "length": 14,
+      "value": "\"question_img\""
+    },
+    {
+      "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
       "length": 16,
       "value": "\"question_order\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 849,
       "length": 10,
       "value": "\"cta_link\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 883,
       "length": 10,
       "value": "\"cta_text\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 918,
       "length": 11,
       "value": "\"rule_sets\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 957,
       "length": 14,
       "value": "\"is_mandatory\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 590,
       "length": 13,
       "value": "\"question_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 632,
       "length": 15,
       "value": "\"question_type\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 662,
+      "offset": 676,
       "length": 15,
       "value": "\"question_text\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 706,
+      "offset": 720,
       "length": 15,
       "value": "\"question_desc\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 765,
+      "length": 14,
+      "value": "\"question_img\""
+    },
+    {
+      "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
       "length": 16,
       "value": "\"question_order\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 849,
       "length": 10,
       "value": "\"cta_link\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 883,
       "length": 10,
       "value": "\"cta_text\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 860,
+      "offset": 918,
       "length": 11,
       "value": "\"rule_sets\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 957,
       "length": 14,
       "value": "\"is_mandatory\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1324,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1358,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1324,
       "length": 6,
       "value": "\"left\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1300,
+      "offset": 1358,
       "length": 7,
       "value": "\"right\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1563,
       "length": 13,
       "value": "\"option_text\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1537,
+      "offset": 1595,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1563,
       "length": 13,
       "value": "\"option_text\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1537,
+      "offset": 1595,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1866,
+      "offset": 1924,
       "length": 11,
       "value": "\"rule_type\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 1978,
       "length": 9,
       "value": "\"skip_to\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1866,
+      "offset": 1924,
       "length": 11,
       "value": "\"rule_type\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1920,
+      "offset": 1978,
       "length": 9,
       "value": "\"skip_to\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2405,
+      "offset": 2463,
       "length": 11,
       "value": "\"survey_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2440,
+      "offset": 2498,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 2539,
       "length": 18,
       "value": "\"show_thanks_card\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2531,
+      "offset": 2589,
       "length": 19,
       "value": "\"thanks_card_title\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2581,
+      "offset": 2639,
       "length": 18,
       "value": "\"thanks_card_desc\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2625,
+      "offset": 2683,
       "length": 12,
       "value": "\"theme_type\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2725,
       "length": 17,
       "value": "\"show_blitz_logo\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2737,
+      "offset": 2795,
       "length": 14,
       "value": "\"survey_theme\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
+      "offset": 2835,
       "length": 12,
       "value": "\"show_intro\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 2878,
       "length": 18,
       "value": "\"intro_card_title\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2867,
+      "offset": 2925,
       "length": 16,
       "value": "\"intro_card_cta\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2912,
+      "offset": 2970,
       "length": 15,
       "value": "\"trigger_delay\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2957,
+      "offset": 3015,
       "length": 16,
       "value": "\"is_dismissible\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2405,
+      "offset": 2463,
       "length": 11,
       "value": "\"survey_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2440,
+      "offset": 2498,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 2539,
       "length": 18,
       "value": "\"show_thanks_card\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2531,
+      "offset": 2589,
       "length": 19,
       "value": "\"thanks_card_title\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2581,
+      "offset": 2639,
       "length": 18,
       "value": "\"thanks_card_desc\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2625,
+      "offset": 2683,
       "length": 12,
       "value": "\"theme_type\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2725,
       "length": 17,
       "value": "\"show_blitz_logo\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2737,
+      "offset": 2795,
       "length": 14,
       "value": "\"survey_theme\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
+      "offset": 2835,
       "length": 12,
       "value": "\"show_intro\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 2878,
       "length": 18,
       "value": "\"intro_card_title\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2867,
+      "offset": 2925,
       "length": 16,
       "value": "\"intro_card_cta\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2912,
+      "offset": 2970,
       "length": 15,
       "value": "\"trigger_delay\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2957,
+      "offset": 3015,
       "length": 16,
       "value": "\"is_dismissible\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 3324,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 3360,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3400,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3387,
+      "offset": 3445,
       "length": 17,
       "value": "\"highlight_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3434,
+      "offset": 3492,
       "length": 17,
       "value": "\"option_bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 3538,
       "length": 16,
       "value": "\"cta_text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3525,
+      "offset": 3583,
       "length": 16,
       "value": "\"close_icon_url\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 3324,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3302,
+      "offset": 3360,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3400,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3387,
+      "offset": 3445,
       "length": 17,
       "value": "\"highlight_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3434,
+      "offset": 3492,
       "length": 17,
       "value": "\"option_bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 3538,
       "length": 16,
       "value": "\"cta_text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3525,
+      "offset": 3583,
       "length": 16,
       "value": "\"close_icon_url\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3804,
+      "offset": 3862,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3841,
+      "offset": 3899,
       "length": 14,
       "value": "\"cta_bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3886,
+      "offset": 3944,
       "length": 18,
       "value": "\"cta_border_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 3988,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 4029,
       "length": 16,
       "value": "\"cta_text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4016,
+      "offset": 4074,
       "length": 16,
       "value": "\"close_icon_url\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3804,
+      "offset": 3862,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3841,
+      "offset": 3899,
       "length": 14,
       "value": "\"cta_bg_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3886,
+      "offset": 3944,
       "length": 18,
       "value": "\"cta_border_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 3988,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 4029,
       "length": 16,
       "value": "\"cta_text_color\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4016,
+      "offset": 4074,
       "length": 16,
       "value": "\"close_icon_url\""
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/NPSFeedback\/NPSFeedbackVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1288,
+      "offset": 1335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tnluser\/Desktop\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/EmojiRating\/EmojiRatingVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 896,
+      "offset": 943,
       "length": 4,
       "value": "true"
     },
