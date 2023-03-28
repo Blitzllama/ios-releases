@@ -18,6 +18,7 @@ import _StringProcessing
 extension BlitzLlamaSDK.BlitzLlamaSDKController {
   public func setBlitzLlamaAPIKey(apiKey: Swift.String, userId: Swift.String)
   public func setLanguageCode(_ langCode: Swift.String)
+  public func setPlatform(_ platForm: Swift.String)
   public func createUser(_ userId: Swift.String)
   public func getUserDetails()
   public func updateUserName(_ username: Swift.String)

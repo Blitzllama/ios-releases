@@ -149,6 +149,33 @@
           },
           {
             "kind": "Function",
+            "name": "setPlatform",
+            "printedName": "setPlatform(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13BlitzLlamaSDK0aB13SDKControllerC11setPlatformyySSF",
+            "mangledName": "$s13BlitzLlamaSDK0aB13SDKControllerC11setPlatformyySSF",
+            "moduleName": "BlitzLlamaSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "createUser",
             "printedName": "createUser(_:)",
             "children": [
