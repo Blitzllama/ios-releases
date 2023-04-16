@@ -6,15 +6,15 @@
 	<dict>
 		<key>Frameworks/SwiftyJSON.framework/Info.plist</key>
 		<data>
-		19PNgGjMBf/0A9Z2VJ2MEi3+7JU=
+		JcvYwOl5byqAisNzicvEgGCA0Ls=
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/SwiftyJSON</key>
 		<data>
-		883SecZjkwQzKlS1eVxR7YPUic0=
+		uxCEuCfiWTUIFhEj9pntT6I3KbQ=
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
 		<data>
-		E0EWNH3pG9c5NagBjc2uowMRtkQ=
+		WmFF8mdb39h7y1UnVyubr4Q3H0M=
 		</data>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
 		<data>
@@ -203,21 +203,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			28/weXC1U/fOiI3cxOSdeA+HTyXe+phsJI9YkvRhYWE=
+			+vG4Ff3VU7UPIjG4oSKvWICvizh7P4Fz84nJLHJo/S8=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyJSON.framework/SwiftyJSON</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JsAXNph1EqE8hc87rblAwkbcEQvPopwHiixoMe7i4aU=
+			gAQX2pp2L10+6VYzSbczuL45m0WJnhGJIcn45SpaIT0=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHaqPQjo98zW6etFuwtkmmsONA7ZqXjzi/V5mKJ4sVs=
+			JcIaq+/Ki2LIOd18Zf8jmElyKx5XxcnGOiQZbx2K+YI=
 			</data>
 		</dict>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
