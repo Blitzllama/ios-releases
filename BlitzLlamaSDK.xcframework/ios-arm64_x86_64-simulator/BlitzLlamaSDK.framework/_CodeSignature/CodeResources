@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/SwiftyJSON.framework/Info.plist</key>
-		<data>
-		m0/cqutpZVJnNjy+tRGorGDPf9A=
-		</data>
-		<key>Frameworks/SwiftyJSON.framework/SwiftyJSON</key>
-		<data>
-		IgQP7ayW/EGISFy6Z9T/aYeVy1Q=
-		</data>
-		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
-		<data>
-		W1y9JIQmbM4RxaOphzHkX8Ex/Mg=
-		</data>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
 		<data>
 		YlM0GBacT3RokRTwZdvLh0bZpRY=
@@ -30,11 +18,11 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		oImpkSXIMkhiVSPG/O7H9iXWTMo=
+		8U7d0ZRBpFvbgvM2ORKmeS/yKPc=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		heh4jQdEQOGExUenVSxk5pcwvP8=
+		fth5hTCMt65S8CIW97y3aYdlHI4=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -223,27 +211,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/SwiftyJSON.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uAT6GTiuhPjKDq/GTFxpuEiSIdU11ciNah9SfOKH0nU=
-			</data>
-		</dict>
-		<key>Frameworks/SwiftyJSON.framework/SwiftyJSON</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Bi7tEvNK9Q2ACmYO/L+vVT4i8bKG1sflad1nzcJynp4=
-			</data>
-		</dict>
-		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8IqnGFANQJScZCO1hTGMrL+FSXFlLNKwrbkf0NTM/fs=
-			</data>
-		</dict>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -262,14 +229,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JLFWHOoICfcF+fTfdiKoTJsCYbiCjBS5YUgpwxtqZ1M=
+			wNbPRNVnLIzeeoloxzWRrqcNmsGOzpB2vvNlm4B+o/g=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8f0QLfgXql1CeanAR5fE9coliN4l9uB5oWn/G6KGjiM=
+			dIrZhSm9MRtfk2B3TH4BwnYAn5WI+Y/RC2PYROOavJM=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
