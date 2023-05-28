@@ -264,12 +264,12 @@ SWIFT_CLASS("_TtC13BlitzLlamaSDK24MicroSurveyBottomSheetVC")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 @class SFSafariViewController;
 
 @interface MicroSurveyBottomSheetVC (SWIFT_EXTENSION(BlitzLlamaSDK)) <SFSafariViewControllerDelegate>
 - (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
+
 
 
 
