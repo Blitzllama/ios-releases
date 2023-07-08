@@ -25,8 +25,8 @@ extension BlitzLlamaSDK.BlitzLlamaSDKController {
   public func updateUserName(_ username: Swift.String)
   public func updateUserEmail(_ email: Swift.String)
   public func updateUserAttributes(attribute: Swift.String, attributeValue: Swift.String, dataType: Swift.String)
-  public func fetchSurvey(viewController: UIKit.UIViewController, triggerName: Swift.String)
-  public func fetchSurvey(triggerName: Swift.String)
+  public func fetchSurvey(viewController: UIKit.UIViewController, triggerName: Swift.String, properties: [Swift.String : Any]? = nil)
+  public func fetchSurvey(triggerName: Swift.String, properties: [Swift.String : Swift.String]? = nil)
 }
 public struct AppNetworkingRequest {
 }
