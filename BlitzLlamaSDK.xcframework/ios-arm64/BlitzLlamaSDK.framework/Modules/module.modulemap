@@ -1,7 +1,7 @@
 framework module BlitzLlamaSDK {
   umbrella header "BlitzLlamaSDK.h"
-
   export *
+
   module * { export * }
 }
 
