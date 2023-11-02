@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/SwiftyJSON</key>
 		<data>
-		yUSQrVbZ04H4GB3uTHCZvCU9KUg=
+		IiEuFLEVW9Ih24sf5k2ZwQwgQx4=
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		R/ho2NPB1Ee0neYCeQg/Gm+uh20=
+		s+zeSCKA0WKzkGxqL1CB686z3BE=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Et8v/IBFUQFs+62GwUKfKezYjBY=
+		JgJAmQvoOmr7r03A8yZUrPZYOLA=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pgT0yPt4rzRa2d97tdWT9TN7L0A=
+		piDZS5jIlpzqujVb5vMN+ML2hSY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wrcvcRbkAAqsdaTtDHAbu7YE7bDtrX/usq0JSIquhOk=
+			7RomIfFCBE6dTI6Pyzw5L6lMHa6uZNcqNq789X5tQFw=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
@@ -238,14 +238,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDiH585sDlosZBvIuW0tg3SQlYd01A197vkNAijzS2Q=
+			Zw+gvh1ZVt60tpEZ8iZ073sh+C4/eChCzM3pSZnzFkU=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1CC/XAVdTJCvLqcfYAPecbP9OUjgmCz6aqUtiYdmcjM=
+			vwvVq/+eI6QEUC67Ym6jILDlQ8Ex8nlnrGWGAYi1IA4=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -273,7 +273,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SnO0lyaIHoCjOjp6T6wX+RxtDRvQxngB4NcL3Hm+gnE=
+			t/Hg5tTzTITHpURTOPQPpHkHgR6FIXTfZJ833CuM/VM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
