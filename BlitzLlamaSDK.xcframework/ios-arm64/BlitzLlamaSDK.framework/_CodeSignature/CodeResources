@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/SwiftyJSON</key>
 		<data>
-		BQUHhH5WxPfz+FjkNgRdZKUssrk=
+		awF+wsolvMKnlCyHBdgRg/IGY8w=
 		</data>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		1xPO1/qDV95dvsHGMhSrJsxkjtk=
+		zw9hBDhLn58JoCu4lnHDfrwZzVI=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/6jBoS7j6GongkmgUF7x2AmTwhQ=
+		OGg20gnx4Opa6RbLRf/1sdUqGqs=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ekmPDjb/hLczLqid4WoFpFsp/vCzJPSZl+M/hEtlE4=
+			O9Ccd1Jzf4Nn20p7+DLeZl0FRZ2ZNRofWH3CdcKtO94=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources</key>
@@ -238,14 +238,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8AyXRTBhrv9WNc9gzKTizgS9jpedyzPGEgPTzXM42Ms=
+			3YkyQ36Ev4LnhB9nHRS49XWJCjrBcE8njs1Q8rvS4J8=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PbqChIbqJ+Gwb0l6c29lRfBoZ79PDjLNLSt50ABLF+w=
+			yac86bXJ6bJbPI+l9aYArNkhYJzs1B2srQ0tx0/yEeA=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
