@@ -8864,104 +8864,6 @@
       "value": "\"https:\/\/log-api.newrelic.com\/log\/v1\""
     },
     {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 355,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 499,
-      "length": 36,
-      "value": "\"Error: Failed to serialize payload\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 625,
-      "length": 29,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 635,
-      "length": 1,
-      "value": "\"?Api-Key=\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 653,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 687,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 795,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 981,
-      "length": 17,
-      "value": "\"Error: \""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1110,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1158,
-      "length": 23,
-      "value": "\"Log successfully sent\""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1250,
-      "length": 48,
-      "value": "\"Error: HTTP status code \""
-    },
-    {
-      "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 1297,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/NPSFeedback\/NPSFeedbackVC.swift",
       "kind": "BooleanLiteral",
       "offset": 1288,
@@ -9602,20 +9504,20 @@
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKGlobals.swift",
       "kind": "StringLiteral",
       "offset": 377,
-      "length": 8,
-      "value": "\"1.4.10\""
+      "length": 7,
+      "value": "\"1.4.5\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKGlobals.swift",
       "kind": "IntegerLiteral",
-      "offset": 412,
+      "offset": 411,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKGlobals.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 552,
       "length": 3,
       "value": "812"
     },
