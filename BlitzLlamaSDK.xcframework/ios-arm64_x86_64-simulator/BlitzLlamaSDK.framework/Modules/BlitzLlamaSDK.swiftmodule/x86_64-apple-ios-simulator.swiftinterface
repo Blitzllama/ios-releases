@@ -19,7 +19,7 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 extension BlitzLlamaSDK.BlitzLlamaSDKController {
-  public func setBlitzLlamaAPIKey(apiKey: Swift.String, userId: Swift.String)
+  public func setBlitzLlamaAPIKey(apiKey: Swift.String)
   public func setLanguageCode(_ langCode: Swift.String)
   public func subscribeEvent(eventName: Swift.String, callback: @escaping BlitzLlamaSDK.BlitzLlamaSDKController.SurveyCompletionCallback)
   public func setPlatform(_ platForm: Swift.String)
