@@ -9218,7 +9218,7 @@
       "kind": "StringLiteral",
       "offset": 383,
       "length": 7,
-      "value": "\"1.5.2\""
+      "value": "\"1.5.3\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKGlobals.swift",
