@@ -7,7 +7,6 @@ import Foundation
 import SafariServices
 import Swift
 import SwiftUI
-import SwiftyJSON
 import UIKit
 import _Concurrency
 import _StringProcessing
