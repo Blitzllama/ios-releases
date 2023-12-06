@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YLclEw5Tibve1HsFQbJlMVjgUYk=
+		VU7bYd94lv2BIK1gYOSvHYzZynw=
 		</data>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jJmaiaZ/zX5YeFANf/0Sdzt2zYo=
+		WY4y6KdqxByhYIJjHu2Pk4I+s60=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1iHSHxxt8exppKrEEWGoyI4Amcc=
+		SmIuLNBrGk9XPz56SXnAwaLk35o=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/SmETzSmds8rkGpUGEaI+4y14QY=
+		GlSYHFc4Ag+8KZcGQNC0HbXqf+s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -191,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ADgVVvSMEX6B2OppluwAFkdpEzhzXANuvQd/1Jz4Wrk=
+			CuR+pU7Pamxv/HFY6juVCcqPhHF7eHFEbvIdPYEZ7Og=
 			</data>
 		</dict>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
@@ -205,14 +205,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Es+R5IAfD7Wz0MObmwYionwuAFUTFk8LLPX+uKHowBg=
+			mVoaZdcHWwJPMx4i3u7ecOP7O8sGKBN+GcE3S5CzQ4M=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yadYLfv4afccB9lO6WdUy8OVsyf6A1Za5gucqTHDWmo=
+			ujPh42cinlXVMz01QijB275WPneDc1//UknUf9kFnyU=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -240,7 +240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ep9uYex/Bl1R52sFvKlcq1rnrVjPrgrI31rf/ps9Gc=
+			TffAwSnGog54164hKPnmCL0Jx6lp4fd0IklOInNfyvw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
