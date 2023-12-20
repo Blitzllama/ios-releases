@@ -13636,196 +13636,196 @@
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 2168,
+      "offset": 2315,
       "length": 18,
       "value": "\"survey_completed\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 2584,
+      "offset": 2731,
       "length": 11,
       "value": "\"survey_id\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 2617,
+      "offset": 2764,
       "length": 14,
       "value": "\"trigger_name\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 2662,
+      "offset": 2809,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 5260,
+      "offset": 5905,
       "length": 27,
       "value": "\"Error: AuthToken is empty\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5824,
+      "offset": 6541,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 7004,
+      "offset": 7807,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 7058,
+      "offset": 7865,
       "length": 9,
       "value": "\"trigger\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 7082,
+      "offset": 7889,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 7600,
+      "offset": 8435,
       "length": 20,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 7619,
+      "offset": 8454,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7909,
+      "offset": 8829,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 8048,
+      "offset": 8980,
       "length": 27,
       "value": "\"Error: AuthToken is empty\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 8841,
+      "offset": 9845,
       "length": 20,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 8860,
+      "offset": 9864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 9412,
+      "offset": 10452,
       "length": 20,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 9431,
+      "offset": 10471,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 9641,
+      "offset": 10709,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 9695,
+      "offset": 10767,
       "length": 9,
       "value": "\"trigger\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 9719,
+      "offset": 10791,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 9750,
+      "offset": 10822,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10250,
+      "offset": 11350,
       "length": 20,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "StringLiteral",
-      "offset": 10269,
+      "offset": 11369,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11084,
+      "offset": 12244,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11827,
+      "offset": 13039,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11925,
+      "offset": 13145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12169,
+      "offset": 13405,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12265,
+      "offset": 13509,
       "length": 5,
       "value": "false"
     },
@@ -15134,217 +15134,217 @@
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "BooleanLiteral",
-      "offset": 20136,
+      "offset": 20138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "BooleanLiteral",
-      "offset": 20493,
+      "offset": 20497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "BooleanLiteral",
-      "offset": 21106,
+      "offset": 21110,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "BooleanLiteral",
-      "offset": 21808,
+      "offset": 21812,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "BooleanLiteral",
-      "offset": 22330,
+      "offset": 22334,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 22869,
+      "offset": 22873,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "BooleanLiteral",
-      "offset": 23215,
+      "offset": 23219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 23698,
+      "offset": 23702,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "Array",
-      "offset": 24285,
+      "offset": 24289,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 24566,
+      "offset": 24570,
       "length": 15,
       "value": "\"in_list_exact\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 24716,
+      "offset": 24720,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 24829,
+      "offset": 24833,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 24984,
+      "offset": 24988,
       "length": 14,
       "value": "\"in_list_once\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 25170,
+      "offset": 25174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 25211,
+      "offset": 25215,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 25324,
+      "offset": 25328,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 25707,
+      "offset": 25711,
       "length": 4,
       "value": "\"eq\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 25775,
+      "offset": 25779,
       "length": 5,
       "value": "\"neq\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 25844,
+      "offset": 25848,
       "length": 4,
       "value": "\"lt\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 25911,
+      "offset": 25915,
       "length": 5,
       "value": "\"lte\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 25980,
+      "offset": 25984,
       "length": 4,
       "value": "\"gt\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 26047,
+      "offset": 26051,
       "length": 5,
       "value": "\"gte\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26133,
+      "offset": 26137,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26234,
+      "offset": 26238,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "StringLiteral",
-      "offset": 26309,
+      "offset": 26313,
       "length": 8,
       "value": "\"submit\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26350,
+      "offset": 26354,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26439,
+      "offset": 26443,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26503,
+      "offset": 26507,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26650,
+      "offset": 26654,
       "length": 2,
       "value": "78"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26758,
+      "offset": 26762,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC+Controller.swift",
       "kind": "IntegerLiteral",
-      "offset": 26874,
+      "offset": 26878,
       "length": 2,
       "value": "14"
     },
@@ -18774,266 +18774,266 @@
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 4867,
+      "offset": 4869,
       "length": 96,
       "value": "\"Error in read(from:ofType:) domain= \""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 4919,
+      "offset": 4921,
       "length": 1,
       "value": "\", description= \""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 4962,
+      "offset": 4964,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5356,
+      "offset": 5358,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5396,
+      "offset": 5398,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5909,
+      "offset": 5911,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 5949,
+      "offset": 5951,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6593,
+      "offset": 6595,
       "length": 35,
       "value": "\"application\/x-www-form-urlencoded\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6650,
+      "offset": 6652,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6715,
+      "offset": 6717,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 6755,
+      "offset": 6757,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7089,
+      "offset": 7091,
       "length": 51,
       "value": "\"-----------------------------\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7139,
+      "offset": 7141,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7165,
+      "offset": 7167,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7343,
+      "offset": 7345,
       "length": 43,
       "value": "\"multipart\/form-data; boundary=\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7385,
+      "offset": 7387,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7408,
+      "offset": 7410,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "IntegerLiteral",
-      "offset": 7788,
+      "offset": 7790,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7832,
+      "offset": 7834,
       "length": 27,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7858,
+      "offset": 7860,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7922,
+      "offset": 7924,
       "length": 74,
       "value": "\"Content-Disposition: form-data; name=\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7968,
+      "offset": 7970,
       "length": 1,
       "value": "\"\" \""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 7995,
+      "offset": 7997,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8059,
+      "offset": 8061,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8084,
+      "offset": 8086,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8203,
+      "offset": 8205,
       "length": 29,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8217,
+      "offset": 8219,
       "length": 2,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8231,
+      "offset": 8233,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8288,
+      "offset": 8290,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8306,
+      "offset": 8308,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8329,
+      "offset": 8331,
       "length": 16,
       "value": "\"Content-Length\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8913,
+      "offset": 8915,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 8953,
+      "offset": 8955,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 9501,
+      "offset": 9503,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 9541,
+      "offset": 9543,
       "length": 14,
       "value": "\"content-type\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "IntegerLiteral",
-      "offset": 10469,
+      "offset": 10471,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "StringLiteral",
-      "offset": 11982,
+      "offset": 11984,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/AppNetworking\/AppNetworking.swift",
       "kind": "IntegerLiteral",
-      "offset": 12856,
+      "offset": 12858,
       "length": 1,
       "value": "0"
     },
@@ -19875,7 +19875,7 @@
       "kind": "StringLiteral",
       "offset": 346,
       "length": 7,
-      "value": "\"1.5.5\""
+      "value": "\"1.5.6\""
     },
     {
       "filePath": "\/Users\/shaunak\/Downloads\/test-analytics\/Github\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
