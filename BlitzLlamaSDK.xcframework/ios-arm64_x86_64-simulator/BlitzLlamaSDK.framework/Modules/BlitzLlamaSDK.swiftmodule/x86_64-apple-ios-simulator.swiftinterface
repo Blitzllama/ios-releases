@@ -1,16 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BlitzLlamaSDK
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BlitzLlamaSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import DeveloperToolsSupport
 import Foundation
 import SafariServices
 import Swift
-import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class BlitzLlamaSDKController {
   public static let getSDKManager: BlitzLlamaSDK.BlitzLlamaSDKController
   public var isSurveyLive: Swift.Bool
@@ -181,11 +178,11 @@ extension Swift.String : BlitzLlamaSDK.JSONSubscriptType {
   }
 }
 extension BlitzLlamaSDK.JSON {
-  public subscript(path: [any BlitzLlamaSDK.JSONSubscriptType]) -> BlitzLlamaSDK.JSON {
+  public subscript(path: [BlitzLlamaSDK.JSONSubscriptType]) -> BlitzLlamaSDK.JSON {
     get
     set
   }
-  public subscript(path: any BlitzLlamaSDK.JSONSubscriptType...) -> BlitzLlamaSDK.JSON {
+  public subscript(path: BlitzLlamaSDK.JSONSubscriptType...) -> BlitzLlamaSDK.JSON {
     get
     set
   }
@@ -421,8 +418,8 @@ public enum writingOptionsKeys {
   }
 }
 extension BlitzLlamaSDK.JSON : Swift.Codable {
-  public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 extension BlitzLlamaSDK.BlitzLlamaSDKController {
   public func logout()
@@ -447,42 +444,42 @@ public enum QuestionType : Swift.String {
 public struct GetSurveyResponseModel : Swift.Codable {
   public let survey: BlitzLlamaSDK.Survey
   public let questions: [BlitzLlamaSDK.Question]
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct Question : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct Properties : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct Labels : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct Option : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct RuleSet : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct Survey : Swift.Codable {
   public let surveyTheme: BlitzLlamaSDK.SurveyTheme
   public let triggerDelay: Swift.Int?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct SurveyTheme : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct Intro : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct AppNetworking {
   public var authenticationToken: Swift.String?
