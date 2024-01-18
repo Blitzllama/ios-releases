@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
 		<data>
-		vQDDpvz8BkQ5vynldZJBnr1WXzs=
+		1BNngH9ZxN/12fgogK+jJCjLK0g=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +18,15 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		xXr0kj/FSgdaUtVb0pk4Sa7phy0=
+		vzGbSeM4BbH9uNGi4cU1XqwyiQQ=
+		</data>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		TyW2lKXmpAWHk9VIVlB/fESI41o=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jXHh38KAuDRxykKwE1S1d80tUKA=
+		WpG1cnP6iGL94TKWfYXPODeIuTw=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +42,27 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0upts8lUDyPcV6OcTtJXSv0IY70=
+		7AWNdKCnj4/YWkhefj6YLfaKAyQ=
+		</data>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		WpG1cnP6iGL94TKWfYXPODeIuTw=
+		</data>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		drB27l0JYA5RHwD5h0A72E4tVr4=
+		</data>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		QuDmU6twk6lwlRFPGyLXSIVGqs0=
+		</data>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		drB27l0JYA5RHwD5h0A72E4tVr4=
+		</data>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		91677G12tgsYb9/6M3TRfVYtfD0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -262,21 +286,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mAuQsE34ynfV14BdbDkEbCkv4gvKagai9cxPcQAps0=
+			xvAmkg1BXr7c1zQtWNPE8y2gO428w9F4J7dDeF/uR0U=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VHkteGkrDVVzr13JbUm7h26miTZ+t0nVmaBq+zDnJb4=
+			gpI9jI6fupKKAkV8y15A0KIGgN4yobnnJqDoxYAczvg=
+			</data>
+		</dict>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gWMt1M8pjNBjLVg4zmyLzHkkByi718Xj7qkxeidb2Zs=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/GJgOzEd+m9TFKfe5xX1jUGUBrtGGd1iYIl2f7vJqJA=
+			M0M3wr8za6jyNnalm0G5DkE5yNhJmpUR5KdGwGzPF9Q=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -304,7 +335,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VWlAlX90Kad3Hz8xNnW/cBOYETuVTW7iCmCacMKHGvM=
+			RxWoRcNNcjrDNxKdV7ektoFqPxW+2Lc6xJIgHE2ra/U=
+			</data>
+		</dict>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M0M3wr8za6jyNnalm0G5DkE5yNhJmpUR5KdGwGzPF9Q=
+			</data>
+		</dict>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MqB1MIc6fffP+7vnF07cZKFYFqRbCTkAABB81Db3j3o=
+			</data>
+		</dict>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oyG/Pn8mr1cIFxhlA2MoxNYh3OAaeunVxAEz+Vyk+m4=
+			</data>
+		</dict>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MqB1MIc6fffP+7vnF07cZKFYFqRbCTkAABB81Db3j3o=
+			</data>
+		</dict>
+		<key>Modules/BlitzLlamaSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ycqX4SqRYKNUOcFJ8vzb3rYBkGwGFYGlcmEKrzjUzNI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
