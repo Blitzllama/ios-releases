@@ -2,7 +2,7 @@
 import PackageDescription
 
 let remoteUrl = "https://github.com/Blitzllama/ios-releases/archive/refs/tags/1.6.0.zip"
-let remoteChecksum = "63765bfd05150cc516c98fd8d5e408d30bec845a60383ff93382e6ad8681b19d"
+let remoteChecksum = "5cb4f1c4ecd2685fd89e9339cb6274a96d471c33dcaf46003181504594f80cf1"
 let packageName = "BlitzLlama"
 
 let package = Package(
