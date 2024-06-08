@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BlitzLlamaSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BlitzLlamaSDK
 import DeveloperToolsSupport
 import Foundation
 import SafariServices
@@ -13,12 +12,13 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class BlitzLlamaSDKController {
   public static let getSDKManager: BlitzLlamaSDK.BlitzLlamaSDKController
+  public var enableLog: Swift.Bool
   public var isSurveyLive: Swift.Bool
   public typealias SurveyCompletionCallback = ([[Swift.String : Any]]) -> Swift.Void
   @objc deinit
 }
 extension BlitzLlamaSDK.BlitzLlamaSDKController {
-  public func setBlitzLlamaAPIKey(apiKey: Swift.String)
+  public func setBlitzLlamaAPIKey(apiKey: Swift.String, enableLog: Swift.Bool = false)
   public func setLanguageCode(_ langCode: Swift.String)
   public func subscribeEvent(eventName: Swift.String, callback: @escaping BlitzLlamaSDK.BlitzLlamaSDKController.SurveyCompletionCallback)
   public func setPlatform(_ platForm: Swift.String)
