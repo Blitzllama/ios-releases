@@ -1723,6 +1723,23 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "BlitzLlamaSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlitzLlamaSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
           "RawDocComment"
@@ -13724,7 +13741,7 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1611,
+      "offset": 1709,
       "length": 5,
       "value": "false"
     },
@@ -14175,6 +14192,20 @@
       "offset": 3396,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzPendingQueue.swift",
+      "kind": "Array",
+      "offset": 200,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/BlitzPendingQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/InputFeedback\/InputFeedbackVC.swift",
@@ -16070,69 +16101,69 @@
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
       "offset": 346,
-      "length": 7,
-      "value": "\"1.6.8\""
+      "length": 8,
+      "value": "\"1.6.11\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 391,
+      "offset": 392,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 626,
       "length": 54,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/emoji-1.png\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 719,
       "length": 54,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/emoji-2.png\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 813,
+      "offset": 814,
       "length": 54,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/emoji-3.png\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 907,
+      "offset": 908,
       "length": 54,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/emoji-4.png\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 1002,
       "length": 54,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/emoji-5.png\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1099,
       "length": 58,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/star_unfill.png\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1197,
+      "offset": 1198,
       "length": 56,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/star_fill.png\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1289,
       "length": 57,
       "value": "\"https:\/\/cdn.blitzllama.com\/survey\/assets\/green-tick.png\""
     },
