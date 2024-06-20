@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		cqY88EMU0thdZve/ATppc2X6wwA=
+		sHF7K3UJQ+7rCxTRVi+a3v5vv0c=
 		</data>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		GvLfa6v7Zwj8bgXxrWpN1D+dgOw=
+		8k5XKtPXqc/ALjV2QGri4DlivJ0=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hPNzfpi8OE1CHpi8tkzS0Vuo05s=
+		0GAHC3tdMOEP2UZ1iL+jzLoW0hk=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GC0OykDj+T0l9ajFfn6syhezJe8=
+		AQ3P2aQXgL6rx3Y7zZE2nTT+PMY=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		6BS9bucfaQvHb+DDLoOj4k9s89w=
+		sjtzGptF5fy/HmujRVrUucQg7BQ=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GC0OykDj+T0l9ajFfn6syhezJe8=
+		AQ3P2aQXgL6rx3Y7zZE2nTT+PMY=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jvTTEwmIKqOQbXrfcXUHwSPxpd4=
+		BPpaNw9Mc0uQq2mgPZ16M7Rnk6s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -259,7 +259,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EJxUHUPGb6sqTDeB2u2F7iantN29a+0xtIpnW2f7gvo=
+			bycc92zfbmMQLhIJ+wIuegFivRYu3fIM8cMs5q4B//A=
 			</data>
 		</dict>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
@@ -273,42 +273,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TGv0xbSkIoLvx5fuBY4SOGPjotozc2CFJAt6vSqF018=
+			jHMKPa9BbRWXHEOdRLTSNpmMwsegSm+tPxkN8dZ0jys=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sanWa1bWu2x4/vMO6/XbybqeEdo1XenVIRH5DTTB/fg=
+			E6+qZchK1bZ4BeGqWjNTsj/4fSwM5UPtbqZSW/6AHBY=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxuxf3Cbzmdi/xx28BLsoBCoULmdoJ9bmKGNYkwmz1o=
+			F/JnAYcpuJioaO20LnuCP2nVfapT/gawHcEt8fNcRwA=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DadYcU+hrCoDzVT2JKry3RVX15JZmAMnSiajx0c59Wo=
+			qTTem4lBdf9fIVktxUn9P/hEjTBoV82kTQFFh0pwClQ=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxuxf3Cbzmdi/xx28BLsoBCoULmdoJ9bmKGNYkwmz1o=
+			F/JnAYcpuJioaO20LnuCP2nVfapT/gawHcEt8fNcRwA=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n6Fl2H4q855PpNT1De5uOTZMuXxzV2k25ud5CXhCASM=
+			cqF4pLGjxaCyGkwRhxYGq0itccasg7JzctCOELiTqN0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

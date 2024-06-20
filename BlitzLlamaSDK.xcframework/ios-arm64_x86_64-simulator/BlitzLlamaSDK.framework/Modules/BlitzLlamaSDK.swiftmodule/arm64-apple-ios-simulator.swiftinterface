@@ -15,6 +15,7 @@ import _SwiftConcurrencyShims
   public var enableLog: Swift.Bool
   public var isSurveyLive: Swift.Bool
   public typealias SurveyCompletionCallback = ([[Swift.String : Any]]) -> Swift.Void
+  public func getUserId() -> Swift.String
   @objc deinit
 }
 extension BlitzLlamaSDK.BlitzLlamaSDKController {
