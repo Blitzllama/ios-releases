@@ -253,6 +253,28 @@
           },
           {
             "kind": "Function",
+            "name": "getUserId",
+            "printedName": "getUserId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13BlitzLlamaSDK0aB13SDKControllerC9getUserIdSSyF",
+            "mangledName": "$s13BlitzLlamaSDK0aB13SDKControllerC9getUserIdSSyF",
+            "moduleName": "BlitzLlamaSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setBlitzLlamaAPIKey",
             "printedName": "setBlitzLlamaAPIKey(apiKey:enableLog:)",
             "children": [
@@ -13741,7 +13763,7 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Controller Classes\/BlitzLlamaSDKController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1709,
+      "offset": 1947,
       "length": 5,
       "value": "false"
     },
@@ -16102,7 +16124,7 @@
       "kind": "StringLiteral",
       "offset": 346,
       "length": 8,
-      "value": "\"1.6.11\""
+      "value": "\"1.6.13\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
