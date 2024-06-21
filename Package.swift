@@ -1,8 +1,8 @@
 // swift-tools-version:5.5
 import PackageDescription
 
-let remoteUrl = "https://github.com/Blitzllama/ios-releases/archive/refs/tags/1.6.13.zip"
-let remoteChecksum = "4768ecbaf894390c717d2bffbe4215f672a36c243ca056a7e62677a74924a97a"
+let remoteUrl = "https://github.com/Blitzllama/ios-releases/archive/refs/tags/1.6.15.zip"
+let remoteChecksum = "85daa00b5480f01c4e34ec6e9fe1a13c392721a966d7f64427ca9b7b6956c2b1"
 let packageName = "BlitzLlama"
 
 let package = Package(
