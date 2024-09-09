@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		sHF7K3UJQ+7rCxTRVi+a3v5vv0c=
+		eXeAn57FfgawX7iBYJkItfh0vpY=
 		</data>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wcO0t/ZfyjXzryhR2UxltfxTx20=
+		vzhp+ObmO5kKSLOErnTPP7wa6gU=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		/x3bmxAJ6zPZY1TfDvNpx2gTayE=
+		t1k92DkpUTaeDM3wXg2oi5oJQo8=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		J1qWF481xbH9EQuHf+KiiIpX8Yw=
+		kJxxloVtlBT+BVrdZYb0BKOrQjU=
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6MYcaP46/mKHxmZdnP88HSVL/fc=
+		fjGt6w2DsGcgbs3JLUTIRyeUpng=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -259,7 +259,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bycc92zfbmMQLhIJ+wIuegFivRYu3fIM8cMs5q4B//A=
+			PzYfUC9xfoNqwQWfepLb21s/L8AX7W5BKEwWJQNIx7Y=
 			</data>
 		</dict>
 		<key>Headers/BlitzLlamaSDK-Swift.h</key>
@@ -273,14 +273,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6PGxoH1xn483eQzsXcJg1j4QRvJoG/QS56JZL8EobeE=
+			g5gg3eFhkspwgWRLstlFhAxvnJcbepoY4v0HflanEjg=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PnzFdquOET1nehFc4n+SNKbEgSK2bXln0UIOU2AZdVQ=
+			m0gIivC6DwpsS24DVgzqQYkRwzKlvsscZSVO3qSPlpI=
 			</data>
 		</dict>
 		<key>Modules/BlitzLlamaSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -308,7 +308,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C68qdKOpjXNPiA3fCOJ3erZ9YWFKW2cSsQlM2kZbU1k=
+			2T9tyPMqTbTksRHiJIh7f9DEMMcIj7Kw2mwDIAkctIk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
