@@ -14094,14 +14094,14 @@
       "kind": "IntegerLiteral",
       "offset": 1916,
       "length": 3,
-      "value": "300"
+      "value": "230"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC.swift",
       "kind": "IntegerLiteral",
       "offset": 1922,
       "length": 3,
-      "value": "350"
+      "value": "280"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MicroSurveyBottomSheet\/MicroSurveyBottomSheetVC.swift",
@@ -16124,7 +16124,7 @@
       "kind": "StringLiteral",
       "offset": 346,
       "length": 8,
-      "value": "\"1.6.20\""
+      "value": "\"1.6.24\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
