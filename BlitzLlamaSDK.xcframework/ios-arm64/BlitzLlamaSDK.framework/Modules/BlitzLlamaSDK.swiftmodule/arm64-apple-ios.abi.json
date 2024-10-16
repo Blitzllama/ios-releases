@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "BlitzLlamaSDK",
+    "printedName": "BlitzLlamaSDK",
     "children": [
       {
         "kind": "Import",
@@ -657,12 +657,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
+                "printedName": "[Swift.String : Any]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
+                    "printedName": "[Swift.String : Any]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -672,9 +672,8 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
                       }
                     ],
                     "usr": "s:SD"
@@ -685,8 +684,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13BlitzLlamaSDK0aB13SDKControllerC11fetchSurvey11triggerName10propertiesySS_SDyS2SGSgtF",
-            "mangledName": "$s13BlitzLlamaSDK0aB13SDKControllerC11fetchSurvey11triggerName10propertiesySS_SDyS2SGSgtF",
+            "usr": "s:13BlitzLlamaSDK0aB13SDKControllerC11fetchSurvey11triggerName10propertiesySS_SDySSypGSgtF",
+            "mangledName": "$s13BlitzLlamaSDK0aB13SDKControllerC11fetchSurvey11triggerName10propertiesySS_SDySSypGSgtF",
             "moduleName": "BlitzLlamaSDK",
             "declAttributes": [
               "AccessControl"
@@ -724,7 +723,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -790,6 +805,22 @@
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -802,6 +833,22 @@
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -814,6 +861,22 @@
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -873,8 +936,9 @@
             "moduleName": "BlitzLlamaSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -961,8 +1025,9 @@
             "moduleName": "BlitzLlamaSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1048,8 +1113,9 @@
             "moduleName": "BlitzLlamaSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1143,8 +1209,9 @@
             "moduleName": "BlitzLlamaSDK",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1246,6 +1313,7 @@
             "mangledName": "$s13BlitzLlamaSDK24MicroSurveyBottomSheetVCC13containerViewSo6UIViewCvp",
             "moduleName": "BlitzLlamaSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Lazy",
               "AccessControl",
@@ -1334,8 +1402,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1383,6 +1452,7 @@
             "mangledName": "$s13BlitzLlamaSDK24MicroSurveyBottomSheetVCC20dimmedBackgroundViewSo6UIViewCvp",
             "moduleName": "BlitzLlamaSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Lazy",
               "AccessControl"
@@ -1471,6 +1541,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -1504,6 +1575,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -1560,6 +1632,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1601,6 +1674,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -1631,6 +1705,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1643,6 +1718,7 @@
         "mangledName": "$s13BlitzLlamaSDK24MicroSurveyBottomSheetVCC",
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -1655,6 +1731,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1706,17 +1796,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1806,6 +1896,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -1909,6 +2013,22 @@
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2193,6 +2313,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2710,6 +2844,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3114,6 +3262,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8398,6 +8560,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Collection",
             "printedName": "Collection",
             "children": [
@@ -9119,6 +9295,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Comparable",
             "printedName": "Comparable",
             "usr": "s:SL",
@@ -9246,6 +9436,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -9302,6 +9508,22 @@
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -9729,6 +9951,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9848,6 +10084,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10290,6 +10542,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10525,6 +10791,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10605,6 +10885,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -10689,6 +10983,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10769,6 +11077,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -10853,6 +11175,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10933,6 +11269,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -11121,6 +11471,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11203,6 +11567,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11283,6 +11661,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -12100,6 +12492,22 @@
         "moduleName": "BlitzLlamaSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -12456,6 +12864,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12557,6 +12979,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -12712,6 +13150,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "JSONSubscriptType",
@@ -13258,12 +13710,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -13478,6 +13924,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "JSONSubscriptType",
             "printedName": "JSONSubscriptType",
             "usr": "s:13BlitzLlamaSDK17JSONSubscriptTypeP",
@@ -13662,6 +14122,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -13768,6 +14235,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/ScaledHeightImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 641,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/ScaledHeightImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 686,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/ScaledHeightImageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
       "kind": "StringLiteral",
       "offset": 204,
@@ -13784,23 +14272,9 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
       "kind": "StringLiteral",
-      "offset": 277,
-      "length": 11,
-      "value": "\"user_name\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
-      "kind": "StringLiteral",
       "offset": 433,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
-      "kind": "StringLiteral",
-      "offset": 507,
-      "length": 12,
-      "value": "\"user_email\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
@@ -13852,102 +14326,11 @@
       "value": "\"data_type\""
     },
     {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
-      "kind": "StringLiteral",
-      "offset": 784,
-      "length": 8,
-      "value": "\"filter\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
-      "kind": "StringLiteral",
-      "offset": 820,
-      "length": 14,
-      "value": "\"filter_value\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/UpdateUserModels.swift",
-      "kind": "StringLiteral",
-      "offset": 859,
-      "length": 11,
-      "value": "\"data_type\""
-    },
-    {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 41,
       "value": "\"https:\/\/gameplay.blitzllama.com\/api\/v1\/\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 305,
-      "length": 6,
-      "value": "\"user\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 336,
-      "length": 11,
-      "value": "\"user\/name\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 373,
-      "length": 12,
-      "value": "\"user\/email\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 415,
-      "length": 16,
-      "value": "\"user\/attribute\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 462,
-      "length": 15,
-      "value": "\"user\/triggers\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 507,
-      "length": 15,
-      "value": "\"user\/app-open\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 13,
-      "value": "\"survey\/user\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 601,
-      "length": 21,
-      "value": "\"survey\/user\/dismiss\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 651,
-      "length": 19,
-      "value": "\"survey\/user\/shown\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
-      "kind": "StringLiteral",
-      "offset": 701,
-      "length": 27,
-      "value": "\"survey\/user\/mark-complete\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Services\/WebServices\/Webservice+EndPoints.swift",
@@ -14258,13 +14641,6 @@
       "value": "\"auth_token\""
     },
     {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/CreateUserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 283,
-      "length": 12,
-      "value": "\"auth_token\""
-    },
-    {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "BooleanLiteral",
       "offset": 826,
@@ -14291,13 +14667,6 @@
       "offset": 1028,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/SurveySubmittedResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 278,
-      "length": 16,
-      "value": "\"valid_response\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/SurveySubmittedResponseModel.swift",
@@ -14403,174 +14772,6 @@
       "offset": 1450,
       "length": 3,
       "value": "490"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1312,
-      "length": 3,
-      "value": "999"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1344,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 3,
-      "value": "902"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1399,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1423,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1450,
-      "length": 3,
-      "value": "490"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1312,
-      "length": 3,
-      "value": "999"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1344,
-      "length": 3,
-      "value": "900"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 3,
-      "value": "902"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1399,
-      "length": 3,
-      "value": "901"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1423,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1450,
-      "length": 3,
-      "value": "490"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2722,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2738,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2752,
-      "length": 5,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2767,
-      "length": 10,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2787,
-      "length": 4,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2801,
-      "length": 7,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2722,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2738,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2752,
-      "length": 5,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2767,
-      "length": 10,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2787,
-      "length": 4,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2801,
-      "length": 7,
-      "value": "6"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/JSON.swift",
@@ -14734,139 +14935,6 @@
       "value": "\"scale_value\""
     },
     {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyFeedbackParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 436,
-      "length": 16,
-      "value": "\"question_order\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyFeedbackParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 477,
-      "length": 11,
-      "value": "\"survey_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyFeedbackParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 515,
-      "length": 13,
-      "value": "\"question_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyFeedbackParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 10,
-      "value": "\"group_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyFeedbackParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 622,
-      "length": 15,
-      "value": "\"question_type\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyFeedbackParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 665,
-      "length": 14,
-      "value": "\"survey_input\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyFeedbackParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 706,
-      "length": 13,
-      "value": "\"scale_value\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 185,
-      "length": 11,
-      "value": "\"image\/gif\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 213,
-      "length": 12,
-      "value": "\"image\/jpeg\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 243,
-      "length": 13,
-      "value": "\"image\/pjpeg\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 272,
-      "length": 11,
-      "value": "\"image\/png\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 15,
-      "value": "\"image\/svg+xml\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 334,
-      "length": 12,
-      "value": "\"image\/tiff\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 362,
-      "length": 11,
-      "value": "\"image\/bmp\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 10,
-      "value": "\"text\/csv\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 20,
-      "value": "\"application\/msword\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 487,
-      "length": 17,
-      "value": "\"application\/pdf\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 531,
-      "length": 17,
-      "value": "\"application\/rtf\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
-      "kind": "StringLiteral",
-      "offset": 570,
-      "length": 12,
-      "value": "\"text\/plain\""
-    },
-    {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/RequestMimeType.swift",
       "kind": "StringLiteral",
       "offset": 185,
@@ -14956,13 +15024,6 @@
       "offset": 707,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Extensions\/UIStoryBoard+Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 133,
-      "length": 13,
-      "value": "\"SurveyTypes\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Extensions\/UIStoryBoard+Extensions.swift",
@@ -15210,62 +15271,6 @@
       "value": "\"intro_prompt\""
     },
     {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 24,
-      "value": "\"single_select_feedback\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 23,
-      "value": "\"multi_select_feedback\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 304,
-      "length": 14,
-      "value": "\"nps_feedback\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 342,
-      "length": 16,
-      "value": "\"scale_feedback\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
-      "length": 15,
-      "value": "\"star_feedback\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 420,
-      "length": 16,
-      "value": "\"emoji_feedback\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 462,
-      "length": 16,
-      "value": "\"input_feedback\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/QuestionType.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 14,
-      "value": "\"intro_prompt\""
-    },
-    {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/CustomProgressBar\/CustomProgressBar.swift",
       "kind": "IntegerLiteral",
       "offset": 242,
@@ -15345,90 +15350,6 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 591,
-      "length": 13,
-      "value": "\"question_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 633,
-      "length": 15,
-      "value": "\"question_type\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 677,
-      "length": 15,
-      "value": "\"question_text\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 721,
-      "length": 15,
-      "value": "\"question_desc\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 766,
-      "length": 14,
-      "value": "\"question_img\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 810,
-      "length": 16,
-      "value": "\"question_order\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 850,
-      "length": 10,
-      "value": "\"cta_link\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 884,
-      "length": 10,
-      "value": "\"cta_text\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 919,
-      "length": 11,
-      "value": "\"rule_sets\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 958,
-      "length": 14,
-      "value": "\"is_mandatory\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1325,
-      "length": 6,
-      "value": "\"left\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1359,
-      "length": 7,
-      "value": "\"right\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
       "offset": 1325,
       "length": 6,
       "value": "\"left\""
@@ -15457,20 +15378,6 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
-      "length": 13,
-      "value": "\"option_text\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1596,
-      "length": 5,
-      "value": "\"_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
       "offset": 1925,
       "length": 11,
       "value": "\"rule_type\""
@@ -15481,118 +15388,6 @@
       "offset": 1979,
       "length": 9,
       "value": "\"skip_to\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1925,
-      "length": 11,
-      "value": "\"rule_type\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1979,
-      "length": 9,
-      "value": "\"skip_to\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2495,
-      "length": 11,
-      "value": "\"survey_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2530,
-      "length": 10,
-      "value": "\"group_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2571,
-      "length": 18,
-      "value": "\"show_thanks_card\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2621,
-      "length": 19,
-      "value": "\"thanks_card_title\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2671,
-      "length": 18,
-      "value": "\"thanks_card_desc\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2715,
-      "length": 12,
-      "value": "\"theme_type\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2757,
-      "length": 17,
-      "value": "\"show_blitz_logo\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2827,
-      "length": 14,
-      "value": "\"survey_theme\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2867,
-      "length": 12,
-      "value": "\"show_intro\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2910,
-      "length": 18,
-      "value": "\"intro_card_title\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2957,
-      "length": 16,
-      "value": "\"intro_card_cta\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3002,
-      "length": 15,
-      "value": "\"trigger_delay\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3047,
-      "length": 16,
-      "value": "\"is_dismissible\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3092,
-      "length": 11,
-      "value": "\"lang_code\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
@@ -15738,97 +15533,6 @@
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 3655,
-      "length": 16,
-      "value": "\"close_icon_url\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3396,
-      "length": 10,
-      "value": "\"bg_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3432,
-      "length": 12,
-      "value": "\"text_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3472,
-      "length": 14,
-      "value": "\"border_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3517,
-      "length": 17,
-      "value": "\"highlight_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3564,
-      "length": 17,
-      "value": "\"option_bg_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3610,
-      "length": 16,
-      "value": "\"cta_text_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3655,
-      "length": 16,
-      "value": "\"close_icon_url\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3934,
-      "length": 10,
-      "value": "\"bg_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 3971,
-      "length": 14,
-      "value": "\"cta_bg_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4016,
-      "length": 18,
-      "value": "\"cta_border_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4060,
-      "length": 12,
-      "value": "\"text_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4101,
-      "length": 16,
-      "value": "\"cta_text_color\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4146,
       "length": 16,
       "value": "\"close_icon_url\""
     },
@@ -15917,20 +15621,6 @@
       "value": "\"group_id\""
     },
     {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyActionsParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 11,
-      "value": "\"survey_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/SurveyActionsParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 293,
-      "length": 10,
-      "value": "\"group_id\""
-    },
-    {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
       "kind": "StringLiteral",
       "offset": 341,
@@ -15978,90 +15668,6 @@
       "offset": 567,
       "length": 5,
       "value": "\"__v\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 341,
-      "length": 5,
-      "value": "\"_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 396,
-      "length": 11,
-      "value": "\"is_active\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 430,
-      "length": 9,
-      "value": "\"app_key\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 462,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 498,
-      "length": 13,
-      "value": "\"internal_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 537,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/UserResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 567,
-      "length": 5,
-      "value": "\"__v\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/AppNetworkingHttpMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 185,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/AppNetworkingHttpMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 207,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/AppNetworkingHttpMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/AppNetworkingHttpMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 253,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/AppNetworkingHttpMethods.swift",
-      "kind": "StringLiteral",
-      "offset": 279,
-      "length": 7,
-      "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/AppNetworkingHttpMethods.swift",
@@ -16124,7 +15730,7 @@
       "kind": "StringLiteral",
       "offset": 346,
       "length": 8,
-      "value": "\"1.6.24\""
+      "value": "\"1.6.27\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
@@ -16269,51 +15875,9 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 312,
-      "length": 14,
-      "value": "\"all_triggers\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 360,
-      "length": 21,
-      "value": "\"trigger_with_events\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
-      "kind": "StringLiteral",
       "offset": 572,
       "length": 14,
       "value": "\"trigger_name\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 572,
-      "length": 14,
-      "value": "\"trigger_name\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 766,
-      "length": 5,
-      "value": "\"_id\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 796,
-      "length": 11,
-      "value": "\"data_type\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
-      "kind": "StringLiteral",
-      "offset": 836,
-      "length": 15,
-      "value": "\"property_name\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetTriggersResponseModel.swift",
@@ -16349,20 +15913,6 @@
       "offset": 224,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/CreateUserParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 9,
-      "value": "\"app_key\""
-    },
-    {
-      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/CreateUserParamModel.swift",
-      "kind": "StringLiteral",
-      "offset": 327,
-      "length": 9,
-      "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIModels\/CreateUserParamModel.swift",
