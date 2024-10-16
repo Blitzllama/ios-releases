@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BlitzLlamaSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import DeveloperToolsSupport
 import Foundation
 import SafariServices
@@ -29,7 +30,7 @@ extension BlitzLlamaSDK.BlitzLlamaSDKController {
   public func updateUserEmail(_ email: Swift.String)
   public func updateUserAttributes(attribute: Swift.String, attributeValue: Swift.String, dataType: Swift.String)
   public func fetchSurvey(viewController: UIKit.UIViewController, triggerName: Swift.String, properties: [Swift.String : Any]? = nil)
-  public func fetchSurvey(triggerName: Swift.String, properties: [Swift.String : Swift.String]? = nil)
+  public func fetchSurvey(triggerName: Swift.String, properties: [Swift.String : Any]? = nil)
 }
 public struct AppNetworkingRequest {
 }
@@ -37,28 +38,28 @@ public struct MultiPartRequest {
 }
 public struct MediaRequest {
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MicroSurveyBottomSheetVC : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var questionTypeAtClassLevel: BlitzLlamaSDK.QuestionType
-  @_Concurrency.MainActor(unsafe) public var languageCode: BlitzLlamaSDK.LanguageCode
-  @_Concurrency.MainActor(unsafe) public var isRTL: Swift.Bool
-  @_Concurrency.MainActor(unsafe) public var surveyModel: BlitzLlamaSDK.GetSurveyResponseModel?
-  @_Concurrency.MainActor(unsafe) public var containerView: UIKit.UIView {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MicroSurveyBottomSheetVC : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var questionTypeAtClassLevel: BlitzLlamaSDK.QuestionType
+  @_Concurrency.MainActor @preconcurrency public var languageCode: BlitzLlamaSDK.LanguageCode
+  @_Concurrency.MainActor @preconcurrency public var isRTL: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public var surveyModel: BlitzLlamaSDK.GetSurveyResponseModel?
+  @_Concurrency.MainActor @preconcurrency public var containerView: UIKit.UIView {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public let maxDimmedAlpha: CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) public var dimmedBackgroundView: UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency final public let maxDimmedAlpha: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public var dimmedBackgroundView: UIKit.UIView {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension BlitzLlamaSDK.MicroSurveyBottomSheetVC : SafariServices.SFSafariViewControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
 }
 public struct NetworkError : Swift.Error {
 }
