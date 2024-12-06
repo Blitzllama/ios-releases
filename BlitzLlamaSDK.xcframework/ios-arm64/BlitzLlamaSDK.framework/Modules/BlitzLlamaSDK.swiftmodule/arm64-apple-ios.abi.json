@@ -1985,6 +1985,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BlitzLlamaSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -14643,30 +14653,37 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 826,
+      "offset": 835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "Array",
-      "offset": 874,
+      "offset": 883,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "Array",
-      "offset": 913,
+      "offset": 922,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1028,
+      "offset": 1037,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/MCQSelectionVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/SurveySubmittedResponseModel.swift",
@@ -14674,6 +14691,13 @@
       "offset": 278,
       "length": 16,
       "value": "\"valid_response\""
+    },
+    {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/MCQQuestions\/Xibs\/OtherOptionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/ViewController Classes\/ScaleFeedback\/ScaleFeedbackVC.swift",
@@ -15364,217 +15388,224 @@
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
+      "offset": 1592,
       "length": 13,
       "value": "\"option_text\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 1624,
       "length": 5,
       "value": "\"_id\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1925,
+      "offset": 1658,
+      "length": 16,
+      "value": "\"has_text_input\""
+    },
+    {
+      "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2027,
       "length": 11,
       "value": "\"rule_type\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 1979,
+      "offset": 2081,
       "length": 9,
       "value": "\"skip_to\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2495,
+      "offset": 2597,
       "length": 11,
       "value": "\"survey_id\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2530,
+      "offset": 2632,
       "length": 10,
       "value": "\"group_id\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2571,
+      "offset": 2673,
       "length": 18,
       "value": "\"show_thanks_card\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2621,
+      "offset": 2723,
       "length": 19,
       "value": "\"thanks_card_title\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2671,
+      "offset": 2773,
       "length": 18,
       "value": "\"thanks_card_desc\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2715,
+      "offset": 2817,
       "length": 12,
       "value": "\"theme_type\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2757,
+      "offset": 2859,
       "length": 17,
       "value": "\"show_blitz_logo\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2827,
+      "offset": 2929,
       "length": 14,
       "value": "\"survey_theme\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2867,
+      "offset": 2969,
       "length": 12,
       "value": "\"show_intro\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2910,
+      "offset": 3012,
       "length": 18,
       "value": "\"intro_card_title\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2957,
+      "offset": 3059,
       "length": 16,
       "value": "\"intro_card_cta\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3002,
+      "offset": 3104,
       "length": 15,
       "value": "\"trigger_delay\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3047,
+      "offset": 3149,
       "length": 16,
       "value": "\"is_dismissible\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3092,
+      "offset": 3194,
       "length": 11,
       "value": "\"lang_code\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3396,
+      "offset": 3498,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 3534,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3472,
+      "offset": 3574,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 3619,
       "length": 17,
       "value": "\"highlight_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3564,
+      "offset": 3666,
       "length": 17,
       "value": "\"option_bg_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3610,
+      "offset": 3712,
       "length": 16,
       "value": "\"cta_text_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3655,
+      "offset": 3757,
       "length": 16,
       "value": "\"close_icon_url\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3934,
+      "offset": 4036,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 4073,
       "length": 14,
       "value": "\"cta_bg_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4016,
+      "offset": 4118,
       "length": 18,
       "value": "\"cta_border_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4060,
+      "offset": 4162,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4101,
+      "offset": 4203,
       "length": 16,
       "value": "\"cta_text_color\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Model\/APIResponseModels\/GetSurveyResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4146,
+      "offset": 4248,
       "length": 16,
       "value": "\"close_icon_url\""
     },
@@ -15730,7 +15761,7 @@
       "kind": "StringLiteral",
       "offset": 346,
       "length": 8,
-      "value": "\"1.6.27\""
+      "value": "\"1.6.28\""
     },
     {
       "filePath": "\/Users\/sudhanshu\/Documents\/GitHub\/blitzllama-ios-sdk\/BlitzLlamaSDK\/Helpers\/Utilities\/SDKConstants.swift",
